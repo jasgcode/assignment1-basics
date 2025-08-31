@@ -30,6 +30,7 @@ def test_train_bpe():
         input_path=input_path,
         vocab_size=500,
         special_tokens=["<|endoftext|>"],
+        
     )
 
     # Path to the reference tokenizer vocab and merges
